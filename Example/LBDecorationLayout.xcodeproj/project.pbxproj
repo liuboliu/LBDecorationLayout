@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1CD7DE89FB6BA79C28549258 /* Pods_LBDecorationLayout_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED65F491C1A061AA7C59D74 /* Pods_LBDecorationLayout_Example.framework */; };
+		3A5A437B2A16F1F800732B39 /* TPWorkStandHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5A43782A16F1F800732B39 /* TPWorkStandHeaderView.m */; };
+		3A5A437C2A16F1F800732B39 /* TPWorkStandItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5A437A2A16F1F800732B39 /* TPWorkStandItemCell.m */; };
+		3A5A437F2A16F40F00732B39 /* VVWorkStandDecorationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5A437D2A16F40F00732B39 /* VVWorkStandDecorationView.m */; };
 		5390550AD8ECA9CA280B55DF /* Pods_LBDecorationLayout_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6B6270B5187F9AB8F06E461 /* Pods_LBDecorationLayout_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -37,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A5A43772A16F1F800732B39 /* TPWorkStandHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPWorkStandHeaderView.h; sourceTree = "<group>"; };
+		3A5A43782A16F1F800732B39 /* TPWorkStandHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPWorkStandHeaderView.m; sourceTree = "<group>"; };
+		3A5A43792A16F1F800732B39 /* TPWorkStandItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPWorkStandItemCell.h; sourceTree = "<group>"; };
+		3A5A437A2A16F1F800732B39 /* TPWorkStandItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPWorkStandItemCell.m; sourceTree = "<group>"; };
+		3A5A437D2A16F40F00732B39 /* VVWorkStandDecorationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVWorkStandDecorationView.m; sourceTree = "<group>"; };
+		3A5A437E2A16F40F00732B39 /* VVWorkStandDecorationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVWorkStandDecorationView.h; sourceTree = "<group>"; };
 		3ED65F491C1A061AA7C59D74 /* Pods_LBDecorationLayout_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LBDecorationLayout_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ADF64867F73A22435C06C19 /* Pods-LBDecorationLayout_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBDecorationLayout_Example.debug.xcconfig"; path = "Target Support Files/Pods-LBDecorationLayout_Example/Pods-LBDecorationLayout_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LBDecorationLayout_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LBDecorationLayout_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,10 +71,10 @@
 		82DEC87F5D077052B7D14ACA /* Pods-LBDecorationLayout_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBDecorationLayout_Tests.release.xcconfig"; path = "Target Support Files/Pods-LBDecorationLayout_Tests/Pods-LBDecorationLayout_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B6B6270B5187F9AB8F06E461 /* Pods_LBDecorationLayout_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LBDecorationLayout_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B7F23A144BEFAA0C4439C396 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B7F23A144BEFAA0C4439C396 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CB43FB2F37304EFE2FAE8122 /* Pods-LBDecorationLayout_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBDecorationLayout_Example.release.xcconfig"; path = "Target Support Files/Pods-LBDecorationLayout_Example/Pods-LBDecorationLayout_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CE09953955F98FD4A81B19FD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		DF9F1876F873E1651549DD01 /* LBDecorationLayout.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LBDecorationLayout.podspec; path = ../LBDecorationLayout.podspec; sourceTree = "<group>"; };
+		CE09953955F98FD4A81B19FD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DF9F1876F873E1651549DD01 /* LBDecorationLayout.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LBDecorationLayout.podspec; path = ../LBDecorationLayout.podspec; sourceTree = "<group>"; };
 		F27C1F87E2EDB4EDC4562B6C /* Pods-LBDecorationLayout_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBDecorationLayout_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LBDecorationLayout_Tests/Pods-LBDecorationLayout_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -137,6 +146,12 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* LBViewController.h */,
 				6003F5A6195388D20070C39A /* LBViewController.m */,
+				3A5A43772A16F1F800732B39 /* TPWorkStandHeaderView.h */,
+				3A5A43782A16F1F800732B39 /* TPWorkStandHeaderView.m */,
+				3A5A437E2A16F40F00732B39 /* VVWorkStandDecorationView.h */,
+				3A5A437D2A16F40F00732B39 /* VVWorkStandDecorationView.m */,
+				3A5A43792A16F1F800732B39 /* TPWorkStandItemCell.h */,
+				3A5A437A2A16F1F800732B39 /* TPWorkStandItemCell.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -193,7 +208,6 @@
 				F27C1F87E2EDB4EDC4562B6C /* Pods-LBDecorationLayout_Tests.debug.xcconfig */,
 				82DEC87F5D077052B7D14ACA /* Pods-LBDecorationLayout_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +273,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -326,10 +341,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-LBDecorationLayout_Example/Pods-LBDecorationLayout_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/LBDecorationLayout/LBDecorationLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LBDecorationLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -386,6 +403,9 @@
 				6003F59E195388D20070C39A /* LBAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* LBViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				3A5A437B2A16F1F800732B39 /* TPWorkStandHeaderView.m in Sources */,
+				3A5A437F2A16F40F00732B39 /* VVWorkStandDecorationView.m in Sources */,
+				3A5A437C2A16F1F800732B39 /* TPWorkStandItemCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

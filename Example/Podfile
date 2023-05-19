@@ -4,6 +4,7 @@ platform :ios, '10.0'
 
 target 'LBDecorationLayout_Example' do
   pod 'LBDecorationLayout', :path => '../'
+  pod 'Masonry'
 
   target 'LBDecorationLayout_Tests' do
     inherit! :search_paths
@@ -11,3 +12,12 @@ target 'LBDecorationLayout_Example' do
     pod 'FBSnapshotTestCase'
   end
 end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '9.0'
+    end
+  end
+end
+

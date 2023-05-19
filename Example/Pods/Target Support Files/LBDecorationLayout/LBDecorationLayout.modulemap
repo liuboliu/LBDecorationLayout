@@ -1,0 +1,6 @@
+framework module LBDecorationLayout {
+  umbrella header "LBDecorationLayout-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_LBDecorationLayout_Tests {
+  umbrella header "Pods-LBDecorationLayout_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
