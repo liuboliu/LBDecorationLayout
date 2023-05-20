@@ -27,6 +27,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor cyanColor];
     [self.view addSubview:self.collectionView];
     [self.collectionView reloadData];
 	// Do any additional setup after loading the view, typically from a nib.

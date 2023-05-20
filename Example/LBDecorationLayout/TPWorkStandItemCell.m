@@ -31,6 +31,7 @@
 {
     [self.contentView addSubview:self.imgView];
     [self.contentView addSubview:self.titleLabel];
+    self.contentView.backgroundColor = [UIColor greenColor];
 }
 
 - (void)setUpContraints
